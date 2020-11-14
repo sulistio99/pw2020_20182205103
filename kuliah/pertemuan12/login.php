@@ -37,6 +37,7 @@ if (isset($_POST['login'])) {
           <input type="password" name="password" required>
         </label></li>
       <li><button type="submit" name="login" Login>Login</button></li>
+      <li><a href="registrasi.php">Tambah User Baru</a></li>
     </ul>
   </form>
 </body>
