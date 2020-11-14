@@ -4,6 +4,7 @@ if (!isset($_SESSION['login'])) {
   header("location: login.php");
   exit;
 }
+
 require 'function.php';
 
 //cek apakah tombol tambah sudah ditekan
